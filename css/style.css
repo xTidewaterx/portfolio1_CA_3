@@ -1,0 +1,815 @@
+
+body {
+
+  max-width: 1000px;
+  flex: 0 auto;
+  margin: 0 auto;
+  max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.logo { 
+  width: 40px;
+  height: 40px;
+  background : url(../Images/dusk-3997154_640.jpg);
+  
+}
+
+
+
+h1 {
+ font-size: 30px;
+ text-align: center;
+ word-break: break-all;
+ padding: 7px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+@media screen and (min-width: 600px) {
+ 
+h1.indexHeader {
+  position:static;
+  font-size: 600%;
+ margin-left: -20%;
+  padding-left: 5%;
+  color: #ffc014;
+ position: left;
+
+}
+
+h1.indexHeader2 {
+  position: static;
+  font-size: 750%;
+ margin-top: -9%;
+ color: #ff8c09;
+ margin-left: 15%
+}
+
+
+p.IndexSubText {
+  position: static;
+  font-size: 140%;
+  margin-top: -10%;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  color: #bbdcf1;
+  
+
+  width: 20%;
+  text-shadow:
+        0.06em 0 rgb(255, 255, 255),
+        0 0.06em black,
+        -0.06em 0 black,
+        0 -0.06em black,
+        -0.06em -0.06em black,
+        -0.06em 0.06em black,
+        0.05em -0.06em black,
+        0.05em 0.06em black;
+}
+/*navigation*/
+
+
+}
+
+@media screen and (max-width: 601px) {
+
+  h1.indexHeader {
+    position:static;
+    font-size: 450%;
+   margin-left: -9%;
+    padding-left: 5%;
+    color: #ffc014;
+ 
+  
+  }
+  
+  h1.indexHeader2 {
+    position: static;
+    font-size: 500%;
+   margin-top: -15%;
+   color: #ff8c09;
+ 
+  }
+  
+  
+  p.IndexSubText {
+    position: static;
+    font-size: 140%;
+    margin-top: -10%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    color: #bbdcf1;
+    width: 50%;
+    
+    text-shadow: 40px;
+    
+    text-emphasis-color:#e9b116 ;
+  
+
+
+  
+  
+    text-shadow:
+          0.06em 0 rgb(255, 255, 255),
+          0 0.06em black,
+          -0.06em 0 black,
+          0 -0.06em black,
+          -0.06em -0.06em black,
+          -0.06em 0.06em black,
+          0.05em -0.06em black,
+          0.05em 0.06em black;
+  }
+
+}
+
+
+
+
+
+
+
+.NavContainer {
+padding: 0px;
+margin: 0px;
+text-align: center;
+display:inline-block;
+vertical-align:top;
+
+}
+
+.navIMG {
+  width: 80px;
+}
+
+
+
+.navigation{
+    padding-right: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+     background-color: rgb(255, 255, 255);
+     
+   
+    
+   
+   }
+   
+
+   .imagenav {
+     width: 50px;
+     height: 40px;
+   }
+  
+   
+   #Nav a {
+     color: #dd962a;
+     text-decoration: rgb(180, 144, 90);
+     padding-right: 10px;
+     font-size: 18px;
+     
+   }
+    
+   #Nav a:hover {
+     color:  #75c5f7;;
+   } 
+
+
+   li {
+    float:right;
+    padding: 5px;
+    padding-right: 0px;
+    list-style: none;
+  }
+  
+
+  @media screen and (max-width: 644px) {
+    .dropdown {
+      display: none;
+    }
+
+  }
+
+
+
+  @media screen and (min-width: 644px) {
+ 
+ 
+
+    #Nav a:hover {
+      color:  #75c5f7;;
+
+      
+    } 
+  
+ .dropbtn{
+    background-color: #ffc014;
+    color: white;
+    
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+   
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    
+    position: absolute;
+    right: 40%;
+    background-color: #fff5e1;
+    min-width: 160px;
+    box-shadow: 0px  0px rgba(0,0,0,0.2);
+    z-index: 10000;
+    place-content: right;
+    
+  }
+  
+  .dropdown-content a {
+    color: rgb(214, 214, 214);
+    padding: 30px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    /*font-size: ;*/
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(165, 136, 136);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #df7c0b;}
+  
+  
+  
+  a.divlink 
+   
+   {
+   
+    color: #f015e5;
+    z-index: 10;
+    width: fit-content;
+    padding-bottom: 140%;
+    padding-right:240%;
+    
+   }
+  
+  }
+
+/*end of navigation*/
+
+
+
+/*index.html*/
+
+    .HomePageBox {
+      background-image: url(../Images/mavis-cw-1641282.jpg);
+      ;
+      min-width: 100%;
+      background-repeat: no-repeat;
+      padding-top: 20%;
+ 
+      background-size: cover;
+   
+
+      
+    
+    }
+    
+ 
+    
+  .indexContainer
+
+  {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: row;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .indexColumn
+  {
+  
+    height: same;
+position: relative;
+
+ background:#ffc014;
+transition: 0.3s;
+
+ font-size: 30px;
+ display: flex;
+ margin: 5%;
+ width: 250px;
+ height: 100px;
+ font-family: 'Hind Madurai', sans-serif;
+ text-align: center;
+
+ 
+  
+    
+  }
+
+  @media screen and (min-width: 644px) { 
+
+    .indexColumn
+  {
+  
+    height: same;
+position: relative;
+
+ background:#ffc014;
+transition: 0.3s;
+
+ font-size:45px;
+ display: flex;
+ margin: 5%;
+ margin-bottom: 10%;
+ width: 350px;
+ height: 200px;
+ font-family: 'Hind Madurai', sans-serif;
+ text-align: center;
+ 
+
+ 
+  
+    
+  }
+    
+  }
+
+
+
+  #indexBoxes a:hover {
+    color: #38bce4;
+    text-underline-offset: none;
+  
+  }
+
+
+a.indexBox  {
+  color: #1f5b81;;
+  text-underline-offset: none;
+  text-decoration: none;
+  
+
+}
+
+  .listOfCoffeShopLocations
+  
+  
+  {
+    padding: 150px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+
+  .listOfCoffeShopLocationsIMG
+
+  {
+    width: 1000px;
+  }
+
+
+  .indexColumn:first-child {
+    text-align: center;
+ 
+    word-break: break-all;
+  }
+
+
+  .indexColumn:nth-child(2)
+
+  {
+   
+    
+   word-break: break-all;
+ 
+  }
+  .indexColumn:nth-child(3)
+
+  {
+  
+   
+    word-break: break-all;
+ 
+  }
+
+  .indexColumn:nth-child(4)
+
+
+  {
+  
+    word-break: break-all;
+  }
+
+  p.indexCenterP {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12%;
+  }
+
+  /*@media only screen and (max-width: 800px){*/
+
+    
+
+
+  /*listOfCoffeShopLocations*/
+
+ .listOfCoffeeShopLocationsBox 
+ {
+   background-color: antiquewhite;
+   padding-bottom: 20%;
+   padding-top: 20%;
+   padding-left: 10%;
+   padding-right: 10%;
+   margin-top: 30%;
+   width: 60%;
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   text-align: center;
+   word-wrap: break-word;
+   margin-top: 10%;
+   margin-bottom: 10%;
+ }
+ 
+ h1.listOfCoffeeShopLocationsBoxH
+ {
+   text-align: center;
+   font-size: 50px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color:  #ff8c09;
+
+ }
+
+
+  .listOfCoffeShopLocationsHeading
+
+  {
+    padding: 2%;
+    font-size: 50px;
+
+  }
+
+ 
+
+  .listOfCoffeShopLocationsIMG
+  {
+    width: 40%;
+   display: flex;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+
+
+  }
+  
+
+  .listOfCoffeShopLocationsContainer {
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+
+
+  
+  }
+
+
+  
+  
+
+
+
+  .listOfCoffeShopLocationsColumn{
+    flex:1;
+
+
+    padding: 10px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+    column-count: 0;
+    display: block;
+    position: relative;
+    bottom: 5vh;
+    top: 5vh;
+    margin-bottom: 10%;
+    width: 150px;
+    font-size: 30px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ff8c09;;
+  
+  }
+
+ 
+
+
+
+  .listOfCoffeShopLocationsColumn2 {
+    flex:1;
+
+
+    padding: 10px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+    column-count: 0;
+    display: block;
+    position: relative;
+    bottom: 5vh;
+    top: 5vh;
+    margin-bottom: 10%;
+    width: 150px;
+    font-size: 30px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ff8c09;;
+    
+  }
+
+  .listOfCoffeShopLocationsColumn3 {
+    flex:1;
+
+
+    padding: 10px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+    column-count: 0;
+    display: block;
+    position: relative;
+    bottom: 5vh;
+    top: 5vh;
+    margin-bottom: 10%;
+    width: 150px;
+    font-size: 30px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ff8c09;;
+    
+  }
+
+
+  .listOfCoffeShopLocationsColumn4 {
+    flex:1;
+
+
+    padding: 10px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+    column-count: 0;
+    display: block;
+    position: relative;
+    bottom: 5vh;
+    top: 5vh;
+    margin-bottom: 10%;
+    width: 150px;
+    font-size: 30px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ff8c09;;
+    
+  }
+
+
+  .listOfCoffeShopLocationsColumn:first-child {
+    font-size: 100px;
+    background-image: url(../Images/berlin-1079616_640.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .listOfCoffeShopLocationsColumn:nth-child(2)
+
+  { 
+  
+ 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+  
+  }
+
+
+  .listOfCoffeShopLocationsColumn2:first-child {
+    font-size: 100px;
+    background-image: url(../Images/paris-843229_640.jpg);
+    background-size: cover;
+  }
+
+  .listOfCoffeShopLocationsColumn3:first-child {
+    font-size: 100px;
+    background-image: url(../Images/dusk-3997154_640.jpg);
+    background-size: cover;
+  }
+
+
+  .listOfCoffeShopLocationsColumn4:first-child {
+    font-size: 80px;
+    background-image: url(../Images/new-york-690214_640.jpg);
+    background-size: cover;
+    outline: none;
+  }
+
+  .aboutUsColumn {
+    column-count: 5;
+    margin: 10%;
+  
+   
+  }
+
+  @media screen and (max-width: 644px) {
+    
+  .listOfCoffeShopLocationsColumn:first-child {
+    font-size: 50px;
+    background-image: url(../Images/berlin-1079616_640.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .listOfCoffeShopLocationsColumn:nth-child(2)
+
+  { 
+  
+ 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+  
+  }
+
+
+  .listOfCoffeShopLocationsColumn2:first-child {
+    font-size: 50px;
+    background-image: url(../Images/paris-843229_640.jpg);
+    background-size: cover;
+  }
+
+  .listOfCoffeShopLocationsColumn3:first-child {
+    font-size: 50px;
+    background-image: url(../Images/dusk-3997154_640.jpg);
+    background-size: cover;
+  }
+
+
+  .listOfCoffeShopLocationsColumn4:first-child {
+    font-size: 35px;
+    background-image: url(../Images/new-york-690214_640.jpg);
+    background-size: cover;
+    outline: none;
+  }
+
+
+  p.listText {
+    color: #ff8c09;
+    margin: 10%;
+    font-size: medium;
+    display: -moz-inline-box;
+    direction: inherit;
+    float: left;
+  }
+
+  h1.listOfCoffeeShopLocationsBoxH
+ {
+   text-align: center;
+   font-size: 35px;
+   justify-content: center;
+
+   margin: 0 auto;
+   color:  #ff8c09;
+ 
+ word-break: keep-all;
+ }
+
+.aboutUsColumn {
+  column-count: 2;
+
+ 
+}
+
+  }
+
+  p.Paris
+   {
+    margin: 10%;
+  color: #ffef09;
+}
+
+
+  p.London { margin: 10%;
+    color: #ffef09;}
+
+  p.Berlin { margin: 10%;
+    color: #ffef09;}
+
+  p.NewYork { margin: 10%;
+    color: #ffef09;}
+ 
+  p.listText {
+    color: #ff8c09;
+    margin: 10%;
+  }
+
+  #listBoxes a:hover {
+    color: #38bce4;
+    text-underline-offset: none;
+  
+  }
+
+
+a.listBox  {
+  color: #ffef09;
+  text-underline-offset: none;
+  text-decoration: none;
+
+}
+/*p classes CoffeShopLocations*/
+
+
+
+
+  /*@media screen and (min-width: 800px) {
+ 
+  } */
+  
+
+
+
+
+
+
+
+/*About us*/
+
+
+
+/*ContactUs*/
+ul.contactUsList {
+  list-style: none;
+  font-size:medium;
+  
+  column-count: 3;
+  column-gap: 10%;
+  padding-left: 10%;
+  padding-right: 4%;
+
+
+
+
+}
+
+/*aboutXlocation*/
+
+.aboutXLocationimg
+{ background-image: url(../Images/berlin-1079616_640.jpg);
+width: 120%;
+text-align: center;
+padding: 20%;
+ padding-block-end: 0mm;
+ display: flex;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-size:cover;
+ background-repeat:no-repeat;
+
+}
+
+h1.aboutXLocation {
+  color:  #e9b116;
+  position:-webkit-sticky;
+  padding: 10%;
+  font-size: 280%;}
+
+
+
+
+  p.teacherMessageThatIamSureTheyWillUnderstand{
+
+    margin: 100px;
+  }
+
+
+  
+
+footer {
+  width: 100%;
+  color:   #5084a5;
+  background-color: #e9b116;
+  text-align: center;
+  font-size: 100%;
+
+}
+
